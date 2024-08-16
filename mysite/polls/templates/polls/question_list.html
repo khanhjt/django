@@ -1,0 +1,11 @@
+{% extends 'polls/base.html' %}
+
+{% block content %}
+    {% if dsquest %}
+        {% for item in dsquest %}
+            <p></p>{{ item.question_text }}
+        {% endfor %}
+    {% else %}
+        <h3 style="color: rgb(221, 21, 21);">Khong co du lieu cau hoi nao !!!</h3>
+    {% endif %}
+{% endblock %}
