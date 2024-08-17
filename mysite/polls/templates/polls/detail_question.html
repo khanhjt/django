@@ -1,0 +1,11 @@
+{% extends 'polls/base.html' %}
+
+{% block content %}
+    {% if qs %}
+    <ul>
+        {% for item in qs.choice_set.all %}
+            <li><input type="radio" value=""</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+{% endblock %}
