@@ -1,10 +1,13 @@
-python3 manage.py collectstatic
+# Học backend django - W3 School
 
-runserver
+django-admin startproject <tên-dự-án>
 
-creatsuperuser
+python manage.py startapp <tên-ứng-dụng>
 
-migrate
+python manage.py makemigrations
 
+python manage.py migrate
 
-py -m pip freeze > requirements.txt
+python manage.py createsuperuser
+
+python3 -m pip freeze > requirements.txt
