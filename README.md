@@ -10,4 +10,4 @@ python manage.py migrate
 
 python manage.py createsuperuser
 
-python3 -m pip freeze > requirements.txt
+python -m pip freeze > requirements.txt
