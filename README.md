@@ -1,4 +1,4 @@
-# Học backend django - W3 School
+# Học backend django
 
 django-admin startproject <tên-dự-án>
 
